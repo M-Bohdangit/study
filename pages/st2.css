@@ -1,0 +1,40 @@
+p {
+    font-family: Arial, 'Times New Roman', Times, serif;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+p {
+    margin-bottom: 10px }
+p + p {
+    text-indent: 1.5em;
+    margin-top: 10px }
+  
+
+h1, h2 {
+    color: black;
+    text-align: center;
+}
+a { 
+    color: black;
+}
+
+.tabs{
+    margin: 0px 0px 50px 0px;
+}
+.tabs__items{
+    display: flex;
+}
+.tabs__item{
+    flex: 0 1 20%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+
+
+
+
+
